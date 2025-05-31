@@ -367,14 +367,14 @@ const Dashboard: React.FC = () => {
                   <div className="p-4">
                     <div className="flex justify-between mb-2">
                       <h3 className="font-medium font-semibold">
-                        Michael Johnson
+                        Bona B.
                       </h3>
                       <span className="text-sm text-muted-foreground">
                         June 10, 2023
                       </span>
                     </div>
                     <p className="text-sm text-muted-foreground mb-2">
-                      michael@example.com
+                      bekelebona058@gmail.com
                     </p>
                     <p className="border-l-4 border-primary pl-3 py-2 bg-primary/5">
                       I am impressed by your portfolio. Would you be available

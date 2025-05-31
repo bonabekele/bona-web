@@ -13,7 +13,7 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="flex h-16 items-center justify-between">
           <NavLink to="/" className="text-2xl font-bold text-white">
-            Bona Bekele
+            Bona web
           </NavLink>
 
           {/* Mobile menu button */}

@@ -10,6 +10,7 @@ export interface Project {
   images?: string[];
   githubUrl?: string;
   demoUrl?: string;
+  projectUrl?: string;
   technologies: string[];
   featured: boolean;
 }

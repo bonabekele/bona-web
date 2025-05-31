@@ -19,7 +19,7 @@ const Index = () => {
         <section className="py-16 bg-muted/30">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold font-heading mb-8 text-center">
-              Rate My Services
+              Rate My Web
             </h2>
             <div className="max-w-md mx-auto">
               <SubscriptionRating />

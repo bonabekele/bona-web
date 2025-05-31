@@ -32,7 +32,7 @@ const Hero: React.FC = () => {
               </Button>
               <Button variant="outline" size="lg" asChild>
                 <Link to="/resume">
-                  Resume <Download className="ml-1" size={18} />
+                  View Resume
                 </Link>
               </Button>
             </div>
@@ -40,16 +40,8 @@ const Hero: React.FC = () => {
 
           <div className="w-full lg:w-1/2 flex justify-center">
             <div className="relative">
-              <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary/20">
-                <img
-                  src="/sol.jpg"
-                  alt="Bona Bekele"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="absolute -bottom-4 -right-4 bg-primary text-white px-6 py-3 rounded-full font-medium">
-                1+ Years Experience
-              </div>
+
+
             </div>
           </div>
         </div>

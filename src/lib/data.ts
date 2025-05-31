@@ -4,8 +4,8 @@ import { Admin, Certificate, ContactMessage, Project, Skill, SocialLink, UserPro
 export const profile = {
   firstName: 'Bona',
   lastName: 'Bekele',
-  title: 'Biomedical Engineer, Management student',
-  bio: 'I have a keen interest in medical imaging and biosignal processing, utilizing tools to improve diagnostic accuracy. I also understand the importance of regulatory compliance and quality assurance in medical product development. My growing interest in neural engineering and tissue regeneration drives me to explore advanced technologies for future healthcare innovations.',
+  title: 'Video Editor, Graphics Designer',
+  bio: 'I use video editing to craft engaging visual stories from raw footage. By cutting scenes, adding effects, and syncing audio, I bring ideas to life and create content that connects with viewers emotionally and visually.By combining color, typography, and layout, I create designs that communicate messages clearly and creatively.',
   email: 'bekelebona058@gmail.com',
   phone: '+251 (969) 676-523',
   location: 'Addis Ababa, Arada',
@@ -40,11 +40,11 @@ export const education = [
 export const projects: Project[] = [
   {
     id: '1',
-    title: 'AI-Powered Image Generator',
-    description: 'An application that uses machine learning algorithms to generate realistic images from textual descriptions. Built with React, TensorFlow.js, and integrated with OpenAI API.',
-    shortDescription: 'Generate realistic images from text descriptions using AI',
+    title: 'CNN based Image Classification',
+    description: 'An application that uses machine CNN to classify ultrasound images after image is analysed. Built with Pytorch, TensorFlow.js, and integrated with OpenAI API.',
+    shortDescription: 'Classify Ultrasound images',
     category: 'AI',
-    image: '/placeholder.svg',
+    image: '/v-logo.png',
     images: ['/placeholder.svg', '/placeholder.svg'],
     githubUrl: 'https://github.com',
     demoUrl: 'https://demo.com',
@@ -57,7 +57,7 @@ export const projects: Project[] = [
     description: 'A comprehensive dashboard for e-commerce store owners to track sales, inventory, and customer data. Features real-time analytics and customizable reports.',
     shortDescription: 'Complete dashboard solution for online store management',
     category: 'Web Development',
-    image: '/placeholder.svg',
+    image: '/laptop.png',
     githubUrl: 'https://github.com',
     demoUrl: 'https://demo.com',
     technologies: ['React', 'Node.js', 'MongoDB', 'Express', 'Chart.js'],
@@ -65,23 +65,25 @@ export const projects: Project[] = [
   },
   {
     id: '3',
-    title: 'Brand Identity Package',
+    title: 'Graphics Design',
     description: 'A complete brand identity solution for a tech startup, including logo design, color palette, typography, and brand guidelines document.',
     shortDescription: 'Comprehensive branding solution for a tech startup',
     category: 'Graphic Design',
-    image: '/placeholder.svg',
+    image: '/food-poster.png',
+    demoUrl: 'https://drive.google.com/drive/folders/11RRwKUnmdhKU9hi5dKhhC9r7J9MGsGeh',
+    projectUrl: 'https://drive.google.com/drive/folders/11RRwKUnmdhKU9hi5dKhhC9r7J9MGsGeh',
     technologies: ['Adobe Illustrator', 'Adobe InDesign', 'Figma'],
     featured: true,
   },
   {
     id: '4',
-    title: 'Corporate Promotional Video',
+    title: 'YouTube and TikTok Videos',
     description: 'A promotional video for a corporate client showcasing their services and company culture. Includes custom animations and professional voice-over.',
     shortDescription: 'Engaging promotional video with custom animations',
     category: 'Video Editing',
-    image: '/placeholder.svg',
-    demoUrl: 'https://demo.com',
-    technologies: ['Adobe Premiere Pro', 'After Effects', 'Audition'],
+    image: '/orange.png',
+    demoUrl: 'https://drive.google.com/drive/folders/1NZWsYwZIwnA0roYOCGFQaMS2OBnGbvyY',
+    technologies: ['Adobe Premiere Pro','CapCut', 'After Effects', 'Audition'],
     featured: false,
   },
   {
@@ -90,7 +92,7 @@ export const projects: Project[] = [
     description: 'A web application that analyzes customer reviews and social media mentions to determine sentiment and identify key themes.',
     shortDescription: 'AI-powered sentiment analysis for customer feedback',
     category: 'AI',
-    image: '/placeholder.svg',
+    image: '/hexag.png',
     githubUrl: 'https://github.com',
     technologies: ['Python', 'NLTK', 'React', 'FastAPI'],
     featured: false,
@@ -101,7 +103,7 @@ export const projects: Project[] = [
     description: 'A modern, responsive portfolio website template designed for creative professionals to showcase their work.',
     shortDescription: 'Modern portfolio website template for creatives',
     category: 'Web Development',
-    image: '/placeholder.svg',
+    image: '/ui-3.png',
     githubUrl: 'https://github.com',
     demoUrl: 'https://demo.com',
     technologies: ['HTML', 'CSS', 'JavaScript', 'GSAP'],
@@ -118,7 +120,7 @@ export const skills: Skill[] = [
   { id: '6', name: 'Machine Learning', level: 3, category: 'AI' },
   { id: '7', name: 'Video Editing', level: 5, category: 'Media' },
   { id: '8', name: 'TypeScript', level: 4, category: 'Programming' },
-  { id: '9', name: 'GraphQL', level: 3, category: 'Backend' },
+  { id: '9', name: 'PostgreSQL', level: 3, category: 'Backend' },
   { id: '10', name: 'Next.js', level: 4, category: 'Frontend' },
   { id: '11', name: 'Docker', level: 3, category: 'DevOps' },
   { id: '12', name: 'MongoDB', level: 4, category: 'Database' },
@@ -181,7 +183,7 @@ export const certificates: Certificate[] = [
     title: 'Udacity certified Coding Certificates',
     issuer: 'Ethiopian Ministry of Innovation and UAE government',
     date: 'September 2024',
-    url: 'https://example.com/cert3',
+    url: 'https://drive.google.com/file/d/13Ug1i1KY-lNSJRmTULWwcVmft6cTaNEs/view',
   },
 ];
 
@@ -195,19 +197,19 @@ export const socialLinks: SocialLink[] = [
   {
     id: '2',
     platform: 'LinkedIn',
-    url: 'https://linkedin.com',
+    url: 'https://www.linkedin.com/in/bonabekele/',
     icon: 'linkedin',
   },
   {
     id: '3',
     platform: 'Twitter',
-    url: 'https://twitter.com',
+    url: 'https://x.com/bekele_bona?t=5kUuPsZqxjMHFHwCyXC6PQ&s=09',
     icon: 'twitter',
   },
   {
     id: '4',
     platform: 'Instagram',
-    url: 'https://instagram.com',
+    url: 'https://www.instagram.com/bonabekele058?igsh=YzljYTk1ODg3Zg==',
     icon: 'instagram',
   },
 ];
@@ -223,8 +225,8 @@ export const contactMessages: ContactMessage[] = [
   },
   {
     id: '2',
-    name: 'Fayera Kuma',
-    email: 'kufayera@gmail.com',
+    name: 'Bona Bekele',
+    email: 'bonabekele800@gmail.com',
     message: 'I am impressed by your portfolio. Would you be available for a freelance project next month?',
     date: '2024-06-10T09:15:00Z',
     read: true,
@@ -245,14 +247,14 @@ export const galleryData = [
   {
     id: '1',
     title: 'Client Meeting in Progress',
-    date: 'May 15, 2023',
+    date: 'May 15, 2021',
     imageUrl: 'https://images.unsplash.com/photo-1573166364839-1bfe9196c23e',
     description: 'Productive brainstorming session with a new client about their upcoming web application project. We discussed user experience priorities and technical requirements.'
   },
   {
     id: '2',
     title: 'Design Exploration',
-    date: 'June 3, 2023',
+    date: 'June 3, 2022',
     imageUrl: 'https://media.istockphoto.com/id/1202227531/photo/beautiful-emerald-colored-glacial-rivers-of-iceland-taken-from-a-helicopter.webp?a=1&b=1&s=612x612&w=0&k=20&c=JUyCVOXDboXLSepcDy7xOTjMNH1UKyLabgFWkAOtaiU=',
     description: 'Exploring new design concepts for an upcoming mobile app. Testing different color schemes and typography options to create the perfect user interface.'
   },
@@ -266,21 +268,21 @@ export const galleryData = [
   {
     id: '4',
     title: 'Video Editing in Progress',
-    date: 'July 5, 2023',
+    date: 'July 5, 2024',
     imageUrl: 'https://images.unsplash.com/photo-1596725858508-70543890c732',
     description: 'Working on a promotional video for a client\'s new product launch. Editing footage, adding special effects, and synchronizing with the perfect soundtrack.'
   },
   {
     id: '5',
     title: 'AI Model Training',
-    date: 'July 22, 2023',
+    date: 'May 22, 2025',
     imageUrl: 'https://media.istockphoto.com/id/1387900612/photo/automation-data-analytic-with-robot-and-digital-visualization-for-big-data-scientist.webp?a=1&b=1&s=612x612&w=0&k=20&c=2iILS0WPh_D-MDMJiIw_14bg6IgJarMUYtDH4D0nIho=',
     description: 'Setting up and training a new machine learning model for image recognition. Fine-tuning parameters to achieve optimal accuracy and performance.'
   },
   {
     id: '6',
     title: 'Project Planning',
-    date: 'August 10, 2023',
+    date: 'March 10, 2024',
     imageUrl: 'https://media.istockphoto.com/id/2148861850/photo/businessman-meeting-and-discussion-with-office-boardroom-and-collaboration-or-workshop-leader.webp?a=1&b=1&s=612x612&w=0&k=20&c=Nf53kQRRQND6i64gvgWJzB70pbPCts_190A5PtOyUEU=',
     description: 'Mapping out project milestones and task assignments for a new web development project. Creating a detailed timeline to ensure on-time delivery.'
   }

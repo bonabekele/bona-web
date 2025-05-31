@@ -25,7 +25,7 @@ const About: React.FC = () => {
                 <div className="relative">
                   <div className="w-64 h-64 rounded-lg overflow-hidden">
                     <img
-                      src="/sol.jpg"
+                      src="/cult.jpg"
                       alt="Bona Bekele"
                       className="w-full h-full object-cover rounded-full"
                     />
