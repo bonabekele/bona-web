@@ -5,7 +5,7 @@ import { defineConfig } from "vite";
 // https://vitejs.dev/config/
 export default defineConfig({
   server: {
-    host: "::",
+    host: 'localhost',
     port: 8080,
   },
   plugins: [
